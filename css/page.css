@@ -1,0 +1,75 @@
+.no-space{
+	margin: 0px;
+	padding: 0px;
+}
+.blog-header {
+    background: rgba(0,0,0,0.2);
+}
+/* stylelint-disable selector-list-comma-newline-after */
+
+.blog-header {
+  border-bottom: 1px solid #e5e5e5;
+}
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+.display-4 {
+  font-size: 2.5rem;
+}
+.debug pre{
+	padding: 15px;
+	color: #fff;
+	border-radius: 6px;
+}
+
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+/* Blog posts */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+/* Footer */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #727272;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+#tour_type,
+#status{
+	height: calc(3.8rem + 2px);
+}
+.p-2.text-white{
+	text-decoration: none;
+}
+.p-2.text-white:hover{
+	text-decoration: underline;
+}

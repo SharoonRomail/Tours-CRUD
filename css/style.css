@@ -1,0 +1,76 @@
+header{
+	position: absolute;
+	width: 100%;
+	z-index: 9;
+	background: rgba(0,0,0,0.4);
+}
+.text-carosel {
+    background: rgba(0,0,0,0.4);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.abc{
+	height: 90vh;
+	background: url("images/banner.png");
+	background-size: cover;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none;
+}
+.carousel-indicators {
+    display: none;
+}
+.carousel-caption {
+    position: absolute;
+    top: 40%;
+    padding: 0px;
+}
+
+li.nav-item a.nav-link.active {
+    color: white;
+}
+
+.custom-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+header .collapse{
+	justify-content: flex-end
+}
+
+.login-sec-outterwrap{
+	text-align: center;
+}
+.login-sec-inner .form-title h2{
+	font-size: 40px;
+	text-align: center;
+}
+.login-sec-inner form input{
+	width: 100%;
+}
+
+header.new_header {
+    position: unset !important;
+}
+.main-head {
+    border: 2px solid gray;
+}
+
+.tab {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.title {
+    border-bottom: 1px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container.text-center.tab {
+    padding: 20px;
+}
